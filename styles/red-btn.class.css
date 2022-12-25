@@ -1,0 +1,9 @@
+/* Black button class styles */
+.red-btn {
+    border: none;
+    background-color: #d00;
+    font-weight: bold;
+    color: white
+}
+
+.red-btn:hover { cursor: pointer }

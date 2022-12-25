@@ -1,0 +1,11 @@
+/* Background red ball class styles */
+div.bg-red-ball {
+    position: absolute;
+    top: 50vh;
+    left: 60vw;
+    z-index: -1;
+    height: 55vw;
+    width: 55vw;
+    border-radius: 50%;
+    background-color: #d00
+}

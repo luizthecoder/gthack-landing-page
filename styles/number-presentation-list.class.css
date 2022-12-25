@@ -1,0 +1,27 @@
+/* Number presentation list styles */
+ul.number-presentation-list {
+    display: flex;
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 40px 0;
+    width: 100%
+}
+
+ul.number-presentation-list > li {
+    padding: 40px;
+    width: 100%;
+    text-align: center
+}
+
+ul.number-presentation-list > li:not(:last-of-type) { border-right: 1px solid #d00 }
+
+
+ul.number-presentation-list > li > p {
+    color: #d00;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+
+ul.number-presentation-list > li > p > span.number { font-size: 32px; font-weight: bold }

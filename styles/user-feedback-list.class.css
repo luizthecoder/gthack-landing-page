@@ -1,0 +1,46 @@
+/* User feedback list styles */
+ul.user-feedback-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column
+}
+
+
+ul.user-feedback-list > li:not(.current-feedback-box) { display: none }
+
+
+ul.user-feedback-list > li > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px
+}
+
+
+ul.user-feedback-list > li > div > div { width: 100% }
+
+
+ul.user-feedback-list > li div.user-feedback-quotation-box q { font-size: 25px }
+
+
+ul.user-feedback-list > li div.user-feedback-author-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    text-align: right
+}
+
+
+ul.user-feedback-list > li div.user-feedback-author-box img.user-feedback-author-image {
+    border-radius: 50%;
+    width: 18vw;
+    height: 18vw;
+    box-shadow: 0 0 10px #0008
+}
+
+
+ul.user-feedback-list > li div.user-feedback-author-box h4 { font-size: 18px }
+
+
+ul.user-feedback-list > li div.user-feedback-author-box p { margin: 0; font-size: 15px }

@@ -1,0 +1,50 @@
+/* Page's main sect styles */
+section#main-sect { display: flex; flex-direction: column }
+
+
+section#main-sect > section { padding: 40px; background-color: white }
+
+
+section#sobre { box-shadow: 0 0 10px #0004; border-radius: 25px 25px 0 0 }
+
+
+section#sobre > div:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+
+section#sobre > div:first-of-type > * { width: 45% }
+
+
+section#sobre > div:first-of-type img { width: 100% }
+
+
+section#main-sect > section h3 { font-size: 40px; margin-bottom: 27px}
+
+
+section#main-sect > section#feedbacks {
+    background-color: #d00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white
+}
+
+
+section#main-sect > section#feedbacks div.feedback-update {
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px
+}
+
+section#main-sect > section#feedbacks div.feedback-update > * {
+    background-color: #fff5;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%
+}
+
+section#main-sect > section#feedbacks div.feedback-update > .current-feedback-ball { background-color: white }
