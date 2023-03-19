@@ -21,7 +21,7 @@ section#sobre > div:first-of-type > * { width: 45% }
 section#sobre > div:first-of-type img { width: 100% }
 
 
-section#main-sect > section h3 { font-size: 40px; margin-bottom: 27px}
+section#main-sect > section h3 { font-size: 40px; margin-bottom: 27px }
 
 
 section#main-sect > section#feedbacks {
@@ -48,3 +48,11 @@ section#main-sect > section#feedbacks div.feedback-update > * {
 }
 
 section#main-sect > section#feedbacks div.feedback-update > .current-feedback-ball { background-color: white }
+
+
+section#main-sect > section#planos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px
+}
