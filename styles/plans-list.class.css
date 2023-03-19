@@ -1,0 +1,53 @@
+/* Plans-list class styles */
+ul.plans-list {
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+    gap: 40px
+}
+
+ul.plans-list > li > div {
+    min-height: 100%;
+    width: 25vw;
+    box-shadow: 0 0 10px #0005;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 27px;
+    padding: 65px 20px
+}
+
+ul.plans-list > li > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px
+}
+
+ul.plans-list > li > div h4.plan-title { font-size: 20px }
+
+ul.plans-list > li > div h5.plan-price {
+    font-size: 20px;
+    color: #777;
+    font-weight: normal
+}
+
+ul.plans-list > li > div h5.plan-price > span.price-value-int { font-size: 36px; color: #444 }
+
+ul.plans-list > li > div ul.plan-benefits {
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: 13px
+}
+
+ul.plans-list > li > div > a.plan-link {
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 10px;
+    width: 50%;
+    text-align: center
+}
+
+ul.plans-list > li > div > a.plan-link:hover { background-color: #e00 }
