@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0
+}
+
+
+footer .logo { font-size: 40px }
+
+footer .logo::after {
+    content: '®';
+    font-size: 20px;
+    position: relative;
+    left: 5px;
+    bottom: 16px
+}
